@@ -1,0 +1,102 @@
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 35%;
+    width: 40%;
+    display: inline-block;
+    position:absolute;
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 10px;
+    
+  }
+  body {
+    background-image: url("D:\reacttut\react-website-1\src\Components\Navbar\c.png");
+    background-color:white;
+    background-position: 0px 40px; 
+    background-repeat: no-repeat;
+   background-size: 15.7%;
+   background-attachment: fixed;
+   }
+   h3 {
+    font-weight: 650;
+    margin-top: -780px;
+    margin-right: 190px;
+  }
+  h4{
+    margin-right: 360px;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc; 
+    color: gray;
+  }
+  pre{
+    margin-right: 55px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  h6.test{
+    margin-right: 45px;
+  }
+  h4.abc{
+    color:gray;
+    margin-right:384px;
+    margin-top: 15px;
+  }
+h6.abcd{
+  margin-right:45px;
+}
+.codeforces{
+  width:200px;
+  height:30px;
+  margin-left: 300px;
+  margin-top:70px
+}
+h2.main{
+  margin-right:950px;
+}
+.codechef{
+  width:200px;
+  height: 70px;
+  margin-left:250px ;
+  margin-top: 70px;
+}
+.spoj{
+  width:200px;
+  height: 40px;
+  margin-left:250px ;
+  margin-top: 79px;
+}
+.hacker{
+  width:200px;
+  height: 30px;
+  margin-left:520px ;
+  margin-top: 85px;
+}
+.earth{
+  width:200px;
+  height: 30px;
+  margin-left:290px ;
+  margin-top: 85px;
+}
+.abcdef{
+  left: 0;
+    top: 0;
+    height: 35%;
+    width: 80%;
+    display: inline-block;
+    position:absolute;
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+h6.tru{
+  font-weight: normal;
+}
