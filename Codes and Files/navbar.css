@@ -1,0 +1,129 @@
+.navbar-brand img {
+	height:35px;
+	margin-top:-5px;
+}
+.avtar{
+	height: 30px;
+	margin-left: 50px;
+}
+.navbar-brand span {
+	font-size:2rem;
+	line-height:1.2;
+	font-weight: 200;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0 0 0 15px;
+	
+}
+.navbar-brand b {
+	display:block;
+	font-size:50%;
+	line-height:1;
+	
+}
+
+.navbar-brand{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+	top:3px;
+	background-attachment: fixed;
+	
+}
+
+.bheeshm{
+	height: 30px;
+	margin-left: 50px;
+}
+.bring{
+	color: white;
+	margin-top: 3px;
+	font-weight: bold;
+	margin-left: 200px;
+	text-decoration: none!important;
+	
+}
+.nav-item_begin{
+	margin-left: 50px;
+}
+.dropdown-menu{
+	min-width: 200px;
+	position: relative;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	height: 710px;
+	color: white;
+    text-decoration: none;
+}
+.dropdown .dropdown-menu  a:hover {
+	color:aqua;
+	background-color: black;
+}
+input[type=search] { 	
+	          /* Overridden by padding: 1px; */
+	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
+	border: 1px solid black;  /* Overridden by border: 2px inset; */
+	background: white;          /* Overridden by background-color: white; */
+	height: 35px;
+	width: 250px;           /* Irrelevant, I guess */
+	margin-top: 5px;
+	background-image: url('D:\reacttut\react-website-1\src\Components\Navbar\Vector.png');
+    background-position: 210px 5px; 
+	background-repeat: no-repeat;
+	border-radius: 13px;
+}
+.navbar{
+	max-height: 48px;
+	position:fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: #323232;
+}
+.bring:link
+{
+   color: white;
+   text-decoration: none;
+}
+.bring:visited
+{
+   color: white;
+   text-decoration: none;
+}
+.bring:hover
+{
+   color: white;
+   text-decoration: none;
+}
+.bring:active
+{
+   color: white;
+   text-decoration: none;
+}
+.navbar-nav{
+	margin-left:40px;
+	font-weight: bold;
+
+	
+}
+.navbar-nav:hover{
+	opacity: 1;
+}
+.btn:hover {opacity: 0.6}
+
+.navbar-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+  }
+  #banner {
+	width: 100%;
+	height: 273px;
+	background-color: gray;
+	overflow: hidden;
+  }
+  .scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
