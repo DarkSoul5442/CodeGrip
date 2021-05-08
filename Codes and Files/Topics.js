@@ -8,7 +8,7 @@ function topics() {
         
 
         <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+                <Link class="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</Link>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     
                 <Link class="dropdown-item" to="/NumberTheory">Number Theory</Link>
@@ -25,124 +25,125 @@ function topics() {
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Trie</a>
+                    <Link class="dropdown-item" to="/Trie">Trie</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        
+                        <Link class="nav-item subDropdown" to="/Trie/TriePracticeQuestions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Segment Trees</a>
-                    <ol  class="nav-item subDropdown">
+                    <Link class="dropdown-item" to="/SegmentTrees">Segment Trees</Link>
+              
+                   <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Merge Sort Tree <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >Persistent Segment Trees <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        
+                        <Link class="nav-item subDropdown" to="/SegmentTrees/MergeSoertTrees">Merge Sort Tree <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/SegmentTrees/PersistentSegmentTrees" >Persistent Segment Trees <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/SegmentTrees/SegmentTreesPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Binary Index Tree</a>
+                    <Link class="dropdown-item" to="/BinaryIndexTrees">Binary Index Tree</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+    
+                        <Link class="nav-item subDropdown" to="/BinaryIndexTrees/BinaryIndexTreesPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">SQRT Decomposition</a>
+                    <Link class="dropdown-item" to="/SQRT_Decomposition">SQRT Decomposition</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">MO's Algorithm <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        
+                        <Link class="nav-item subDropdown" to="/SQRT_Decomposition/MOsAlgorithm">MO's Algorithm <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/SQRT_Decomposition/SQRT_DecompositionPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Heavy Light Decomposition</a>
+                    <Link class="dropdown-item" to="/HeavyLight_Decomposition">Heavy Light Decomposition</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        
+                        <Link class="nav-item subDropdown" to="/HeavyLight_Decomposition/Heavylight_DecompositionPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Suffix Array</a>
+                    <Link class="dropdown-item" to="/SuffixArray">Suffix Array</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                    
+                        <Link class="nav-item subDropdown" to="/SuffixArray/SuffixArrayPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Graph Theory</a>
+                    <Link class="dropdown-item" to="/GraphTheory">Graph Theory</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">DFS <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >BFS <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Dijkstra's Algorithm <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Minimum Spanning Tree <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Disjoint Set Union <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >Lowest Common Ancestor <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Bridges and Articulation points <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >Strongly Connected Components (Torgon's Algorithm) <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Minimum and Maximum Flow (Dinic Algorithm) <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >Euler Tour/Tree Flatening <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                     
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Dfs">DFS <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Bfs" >BFS <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Dijkstra">Dijkstra's Algorithm <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/MinSpan">Minimum Spanning Tree <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/DisSet">Disjoint Set Union <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Lca" >Lowest Common Ancestor <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Baa">Bridges and Articulation points <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/StrongConnected" >Strongly Connected Components (Torgon's Algorithm) <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Min_and_maxflow">Minimum and Maximum Flow (Dinic Algorithm) <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/Eulertour" >Euler Tour/Tree Flatening <br></br></Link>
+                        <Link class="nav-item subDropdown" to="/GraphTheory/GraphTheoryPracticeQusetions">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Dynamic Programming</a>
+                    <Link class="dropdown-item" to="#">Dynamic Programming</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">DP on Bit Masking <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Sum over subset DP <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >DP on trees <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Explanation <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">DP on Bit Masking <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Sum over subset DP <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#" >DP on trees <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Binary Search and Predicate Function</a>
+                    <Link class="dropdown-item" to="#">Binary Search and Predicate Function</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Explanation <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Game Theory</a>
+                    <Link class="dropdown-item" to="#">Game Theory</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Explanation <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">String Pattern Searching</a>
+                    <Link class="dropdown-item" to="#">String Pattern Searching</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Rabin-Karp Algorithm <br></br></a>
-                        <a class="nav-item subDropdown" href="#" >KMP Algorithm <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Rabin-Karp Algorithm <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#" >KMP Algorithm <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Matrix Exponential</a>
+                    <Link class="dropdown-item" to="#">Matrix Exponential</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Explanation <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
-                    <a class="dropdown-item" href="#">Fast Fourier Transform</a>
+                    <Link class="dropdown-item" to="#">Fast Fourier Transform</Link>
                     <ol  class="nav-item subDropdown">
                         <div class="nav-menu subDropdown" style={{backgroundColor:"hex"}}>
-                        <a class="nav-item subDropdown" href="#" >Explanation <br></br></a>
-                        <a class="nav-item subDropdown" href="#">Practice Questions <br></br></a>
+                        <Link class="nav-item subDropdown" to="#" >Explanation <br></br></Link>
+                        <Link class="nav-item subDropdown" to="#">Practice Questions <br></br></Link>
                         
                     </div>
                     </ol>
